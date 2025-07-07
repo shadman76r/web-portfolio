@@ -13,6 +13,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
 
 .btn-primary{
     background-color: #FD6E0A;
@@ -23,6 +26,12 @@
     border-radius: 5px;
     border: none;
 
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 /* Nav styles */
 nav{
@@ -51,4 +60,34 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
     /* color: #474747; */
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+
+}
+
+/* banner-greetings */
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+/* banner-title */
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+/* banner-discription */
+.banner-discription{
+    font-weight: 400;
+    font-size: 18px;
+}
+/* banner-profile-pic */
+.banner-profile-pic{
+    width: 584;
+    height: 676;
 }
