@@ -210,9 +210,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 
 /* responsive media query */
-.hide{
-    display: none;
-}
+
 /* flex derection default row */
 @media screen and (max-width: 576px) {
     .skills-container, 
